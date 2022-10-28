@@ -3,38 +3,20 @@
     <div class="message">
       <p>We’d love to work with you!</p>
     </div>
-    <form class="form" data-netlify=true id="sub-form" onsubmit="return false">
-      <input type="email" placeholder="email@example.com" name="email" v-model="email" />
-      <button @click="hello">SAY HI</button>
+    <form 
+      name="subsribers"
+      class="form"
+      method="post"
+      action="/hello"
+      netlify
+      >
+      <input type="email" placeholder="email@example.com" name="email"/>
+      <button type="submit">SAY HI</button>
     </form>
   </div>
 </template>
 
 <script>
-export default {
-  data: function() {
-    return {
-      email: ""
-    }
-  },
-  methods: {
-    hello(event) {
-      const subForm = document.getElementById("sub-form")
-      const formData = new FormData(subForm)
-
-      console.log(new URLSearchParams(formData).toString())
-
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString(),
-      })
-        .then(() => console.log("Form successfully submitted"))
-        .catch((error) => console.error(error))
-    }
-  }
-}
-
 
 </script>
 

@@ -8,23 +8,7 @@
 </template>
 
 <script>
-export default {
-  mounted: function() {
-    const observer = new IntersectionObserver(function (entries, observer) {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) {
-          return;
-        } else {
-          entry.target.classList.add('show');
-          observer.unobserve(entry.target);
-        }
-      });
-    });
-    
-    observer.observe(document.querySelector('.line-one'));
-    observer.observe(document.querySelector('.line-two'));
-  },
-}
+
 </script>
 
 
@@ -38,21 +22,6 @@ export default {
       padding: 4px 0;
       font-weight: 400;
     }
-  }
-
-  .line-one {
-    opacity: 0;
-    transition: opacity 320ms ease-in;
-    transition-delay: 320ms;
-  }
-  .line-two {
-    opacity: 0;
-    transition: opacity 320ms ease-in;
-    transition-delay: 640ms;
-  }
-
-  .show {
-    opacity: 1 !important;
   }
 
   @media only screen and (max-width: 768px) {
