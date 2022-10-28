@@ -36,6 +36,7 @@ export default {
       font-size: 2em;
       text-align: center;
       padding: 4px 0;
+      font-weight: 400;
     }
   }
 
@@ -48,7 +49,6 @@ export default {
     opacity: 0;
     transition: opacity 320ms ease-in;
     transition-delay: 640ms;
-    
   }
 
   .show {
@@ -58,6 +58,8 @@ export default {
   @media only screen and (max-width: 768px) {
     .introduction h2 p {
       font-size: 1.2em;
+      transition-delay: 0ms !important;
+      opacity: 1 !important;
     }
   }
 </style>
