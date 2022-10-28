@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <img src="/waving-hand_1f44b.png" alt="">
+    <img src="/waving-hand_1f44b.png" alt="Hello!">
     <h2>Hello!</h2>
     <p>Thankyou for reaching out. We will get back to you very soon!</p>
   </div>

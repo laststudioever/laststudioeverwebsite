@@ -1,7 +1,7 @@
 <template>
   <footer>
       <div class="banner">
-        <img src="/logo.svg" />
+        <img src="/logo.svg" alt="LSE Logo" />
       </div>
       <div class="socials">
         <a href="https://instagram.com/laststudioever?igshid=YmMyMTA2M2Y=">INSTAGRAM</a>
