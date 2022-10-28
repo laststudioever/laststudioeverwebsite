@@ -5,7 +5,7 @@
       </div>
       <div class="socials">
         <a href="https://instagram.com/laststudioever?igshid=YmMyMTA2M2Y=">INSTAGRAM</a>
-        <a href="#">BEEHANCE</a>
+        <a href="https://www.behance.net/laststudioever">BEEHANCE</a>
         <a href="https://www.linkedin.com/company/last-studio-ever/">LINKEDIN</a>
         <a href="https://twitter.com/laststudioever?t=n2VDl5iqt6uvmAiNuE_2BQ&s=09">TWITTER</a>
       </div>
