@@ -30,6 +30,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 32px;
 
   img {
     width: 128px;
@@ -41,10 +42,12 @@
     font-size: 6.4em;
     margin-bottom: 16px;
     font-style: italic;
+    text-align: center;
   }
 
   p {
     font-size: 1.6em;
+    text-align: center;
   }
 }
 </style>
