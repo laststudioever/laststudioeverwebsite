@@ -4,10 +4,10 @@
         <img src="/logo.svg" />
       </div>
       <div class="socials">
-        <a href="#">INSTAGRAM</a>
+        <a href="https://instagram.com/laststudioever?igshid=YmMyMTA2M2Y=">INSTAGRAM</a>
         <a href="#">BEEHANCE</a>
-        <a href="#">LINKEDIN</a>
-        <a href="#">ARTSTATION</a>
+        <a href="https://www.linkedin.com/company/last-studio-ever/">LINKEDIN</a>
+        <a href="https://twitter.com/laststudioever?t=n2VDl5iqt6uvmAiNuE_2BQ&s=09">TWITTER</a>
       </div>
   </footer>
 </template>
