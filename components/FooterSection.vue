@@ -4,10 +4,10 @@
         <img src="/logo.svg" alt="LSE Logo" />
       </div>
       <div class="socials">
-        <a href="https://instagram.com/laststudioever?igshid=YmMyMTA2M2Y=">INSTAGRAM</a>
-        <a href="https://www.behance.net/laststudioever">BEEHANCE</a>
-        <a href="https://www.linkedin.com/company/last-studio-ever/">LINKEDIN</a>
-        <a href="https://twitter.com/laststudioever?t=n2VDl5iqt6uvmAiNuE_2BQ&s=09">TWITTER</a>
+        <a href="https://instagram.com/laststudioever?igshid=YmMyMTA2M2Y=" target="_blank">INSTAGRAM</a>
+        <a href="https://www.behance.net/laststudioever" target="_blank">BEHANCE</a>
+        <a href="https://www.linkedin.com/company/last-studio-ever/" target="_blank">LINKEDIN</a>
+        <a href="https://twitter.com/laststudioever?t=n2VDl5iqt6uvmAiNuE_2BQ&s=09" target="_blank">TWITTER</a>
       </div>
   </footer>
 </template>
@@ -44,7 +44,6 @@
       text-decoration: none;
       color: black;
       font-weight: 900;
-      font-style: italic;
       transition: color 160ms ease-in;
     }
 

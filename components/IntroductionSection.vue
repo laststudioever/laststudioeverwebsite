@@ -1,8 +1,7 @@
 <template>
     <div class="introduction">
       <h2>
-        <p class="line-one">A creative studio telling stories that</p>
-        <p class="line-two">amplify your brand’s voice.</p>
+        <p>We are a multidisciplinary studio telling stories through film and visual arts.</p>
       </h2>
     </div>
 </template>
@@ -17,10 +16,13 @@
     padding: 64px 32px;
 
     h2 p {
+      max-width: 480px;
+      margin: 0 auto; 
       font-size: 2em;
       text-align: center;
       padding: 4px 0;
       font-weight: 400;
+      line-height: 1.6em;
     }
   }
 

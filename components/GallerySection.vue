@@ -1,14 +1,17 @@
 <template>
     <div class="gallery">
       <div class="item">
-        <!-- <img src="/Agha/5-08-2020 R01.jpg" alt=""> -->
+        <!-- <img src="/Agha/28-6-2020 B R06.png" alt="Frame 1"> -->
+        <video autoplay muted loop>
+          <source src="/Agha/website_cut.webm" type="video/webm">
+        </video>
+      </div>
+      <div class="item">
         <img src="/Agha/28-6-2020 B R06.png" alt="Frame 1">
+        <!-- <img src="/Agha/Chunking R12.png" alt="Frame 2"> -->
       </div>
       <div class="item">
-        <img src="/Agha/Chunking R12.png" alt="Frame 2">
-      </div>
-      <div class="item">
-        <img src="/Agha/agha-haider-img-7439.jpg" alt="Frame 3">
+        <img src="/Agha/agha-haider-img-7439.jpg" alt="Frame 2">
       </div>
     </div>
 </template>
@@ -30,6 +33,12 @@
       height: 512px;
 
       img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      video {
         width: 100%;
         height: 100%;
         object-fit: cover;
