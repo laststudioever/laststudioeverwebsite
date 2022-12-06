@@ -16,7 +16,7 @@
     padding: 64px 32px;
 
     h2 p {
-      max-width: 480px;
+      max-width: 680px;
       margin: 0 auto; 
       font-size: 2em;
       text-align: center;
