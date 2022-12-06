@@ -1,7 +1,7 @@
 <template>
     <div class="introduction">
       <h2>
-        <p>We are a multidisciplinary studio telling stories through film and visual arts.</p>
+        <p>We are a creative studio using 3D animation and sound to create videos & short films for brands and individuals.</p>
       </h2>
     </div>
 </template>

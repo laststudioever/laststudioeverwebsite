@@ -7,11 +7,12 @@
         </video>
       </div>
       <div class="item">
-        <img src="/Agha/28-6-2020 B R06.png" alt="Frame 1">
+        <img src="/Agha/WoodR02.png" alt="Frame 1" />
         <!-- <img src="/Agha/Chunking R12.png" alt="Frame 2"> -->
       </div>
       <div class="item">
-        <img src="/Agha/agha-haider-img-7439.jpg" alt="Frame 2">
+        <img src="/Agha/TennisBall.png" alt="Frame 2" />
+        
       </div>
     </div>
 </template>
